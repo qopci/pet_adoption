@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Center</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="/confirm" method="POST">
+        <h1>Adopt a pet here</h1>
+            <label>What type of Pet would you like to adopt?
+                <input type="text" id="pet" name="pet_type">
+            </label>
+        <br>
+            <label>Quantity:
+                <input type="text" id="quantity" name="quantity">
+            </label>
+        <br>
+            <label>Color:
+                <input type="text" id="color" name="color">
+            </label>
+        <br>
+        <button id="submit-button">Submit Order</button>
+        <p id="result"></p>
+    </form>
+</body>
+</html>
